@@ -29,7 +29,6 @@ li {
 .header {
   background-image: url('../images/bg-1.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: left center;
 }
 
@@ -321,6 +320,7 @@ li {
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   background: #5477BB;
+  border: 1px solid #5477BB;
 }
 
 .swiper-button-next:hover path,
@@ -337,14 +337,21 @@ li {
   content: '';
 }
 
+.support {
+  background-image: url(../images/bg-3.jpg);
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .support-inner {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .support-text {
   max-width: 660px;
-  margin-bottom: 50px;
 }
 
 .suppot-text__title {
@@ -376,16 +383,14 @@ li {
 
 .support-box {
   flex-basis: 460px;
-  max-height: 350px;
   background: #F6F8F9;
   border: 1px solid #E8E8E8;
   margin-top: 15px;
 }
 
-/* Посмотри не получилось что то */
-/* .support-box__inner {
-  padding: 43px 25px 52px 67px;
-} */
+.support-box__inner {
+  padding: 43px 15px 0 67px;
+}
 
 .support-box__title {
   font-weight: 800;
@@ -422,4 +427,295 @@ li {
   font-size: 28px;
   line-height: 44px;
   color: #303B40;
+  margin-bottom: 115px;
+}
+
+.support-bg {
+  margin-bottom: 100px;
+  margin-left: 80px;
+}
+
+.support-bg__img {
+  max-width: 100%;
+}
+
+.support-bg__box {
+  position: absolute;
+  right: 11px;
+  max-width: 556px;
+  background: #F69A1B;
+  bottom: -111%;
+}
+
+.support-bg-box__inner {
+  padding: 56px 67px 74px 61px;
+  max-width: 556px;
+  max-height: 362px;
+}
+
+.support-bg-box__title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  max-width: 310px;
+}
+
+.support-bg-box__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  max-width: 422px;
+  margin-top: 24px;
+}
+
+.services {
+  background-image: url('../images/bg-4.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  padding-bottom: 175px;
+}
+
+.services-block {
+  margin-bottom: 100px;
+}
+
+
+.services-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  color: #303B40;
+  margin-bottom: 45px;
+}
+
+.services-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.services-block__items {
+  background: #F6F8F9;
+  border: 1px solid #E8E8E8;
+  flex-basis: 557px;
+}
+
+.servives-item__inner {
+  padding: 58px 0 40px 100px;
+}
+
+.service-title {
+  position: relative;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #303B40;
+  margin-top: 12px;
+}
+
+.services-list__items {
+  padding-right: 25px;
+}
+
+.services-list__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  color: #303B40;
+  position: relative;
+  padding-left: 15px;
+}
+
+.services-list__item::before {
+  position: absolute;
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #F69A1B;
+  left: 0;
+  top: 18px;
+}
+
+.accounting::before {
+  content: '';
+  background-image: url('../images/accounting.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -55px;
+  bottom: -2px;
+}
+
+.audit::before {
+  content: '';
+  background-image: url('../images/audit.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -55px;
+  bottom: -2px;
+}
+
+.management::before {
+  content: '';
+  background-image: url('../images/management.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -55px;
+  bottom: -2px;
+}
+
+.tax::before {
+  content: '';
+  background-image: url('../images/tax.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -55px;
+  bottom: -2px;
+}
+
+.outsourcing-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.outsourcing-info {
+  max-width: 754px;
+  margin-right: 28px;
+}
+
+.outsourcing-info__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  color: #303B40;
+  margin-bottom: 47px;
+}
+
+.outsourcing-info__text:first-of-type {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #303B40;
+  margin-bottom: 48px;
+}
+
+.outsourcing-info__text:last-of-type {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #5477BB;
+}
+
+.outsourcing-block {
+  background: #F69A1B;
+  margin-top: 10px;
+}
+
+.outsourcing-block__inner {
+  padding: 64px 66px 0 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.outsourcing-percent {
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 70px;
+  color: #FFFFFF;
+  margin-bottom: 38px;
+}
+
+.outsourcing-percent__text {
+  max-width: 225px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* .step-inner {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  max-height: 512px;
+  justify-content: space-between;
+} */
+.step-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.step-inner__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.step-inner__block {
+  max-width: 558px;
+  padding-left: 40px;
+  border-left: 2px solid #5477BB;
+}
+
+.step-info__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  color: #303B40;
+  margin-bottom: 21px;
+}
+
+.step-info__text {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #5477BB;
+}
+
+.step-block__title {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #303B40;
+  margin-bottom: 11px;
+}
+
+.step-block__title span {
+  color: #F69A1B;
+}
+
+.step-block__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #303B40;
+}
+.step-bg__img{
+  display: flex;
+  justify-content: center;
 }
