@@ -3,7 +3,16 @@ new Swiper('.swiper', {
   spaceBetween: 30,
   slideClass: "swiper-slide",
   loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
+new Swiper('.publications-swiper', {
+  slidesPerView: 3,
+  spaceBetween: 30,
   slideClass: "swiper-slide",
+  loop: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
