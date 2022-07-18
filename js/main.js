@@ -10,7 +10,14 @@ new Swiper(aboutSlider, {
     nextEl: '.about-next',
     prevEl: '.about-prev',
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    }
+  }
 })
+
 
 const slider = document.querySelector('.publications-swiper')
 const partnerSlider = document.querySelector('.partner-swiper')
