@@ -1,408 +1,517 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tet-audit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tet-audit</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="header-top">
-        <div class="header-top__inner">
-          <div class="header-logo">
-            <a class="header-logo__link" href="#"><img src="images/logo.svg" alt="logo"></a>
-          </div>
-          <div class="social">
-            <img class="social-img" src="images/phone.svg" alt="phone">
-            <a class="social-phone" href="tel:380441541314">+38 044 154 13 14</a>
-            <a class="social-viber" href="#"><img src="images/viber.svg" alt="viber"></a>
-            <a class="social-telegram" href="#"><img src="images/telegram.svg" alt="telegram"></a>
-            <a class="social-feedback" href="">Оставить заявку</a>
-          </div>
-          <div class="burger">
-            <div class="burger__line">
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="header-top__inner">
+            <div class="header-logo">
+              <a class="header-logo__link" href="#"
+                ><img src="images/logo.svg" alt="logo"
+              /></a>
+            </div>
+            <div class="social">
+              <img class="social-img" src="images/phone.svg" alt="phone" />
+              <a class="social-phone" href="tel:380441541314"
+                >+38 044 154 13 14</a
+              >
+              <a class="social-viber" href="#"
+                ><img src="images/viber.svg" alt="viber"
+              /></a>
+              <a class="social-telegram" href="#"
+                ><img src="images/telegram.svg" alt="telegram"
+              /></a>
+              <a class="social-feedback" href="">Оставить заявку</a>
+            </div>
+            <div class="burger">
+              <div class="burger__line"></div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="header-nav">
-        <div class="header-nav__link">
-          <ul class="nav__link-items">
-            <li><a href="#" class="nav__link-item">О компании</a></li>
-            <li><a href="#" class="nav__link-item">Наши услуги</a></li>
-            <li><a href="#" class="nav__link-item">Экспресс аудит</a></li>
-            <li><a href="#" class="nav__link-item">Блог</a></li>
-            <li><a href="#" class="nav__link-item">Контакты</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="header-content">
-        <div class="header-content__box">
-          <div class="content-box__img">
-            <img src="images/cubik.png" alt="cubik">
-          </div>
-          <div class="content-box__text">
-            <h1 class="content-box__title">С нами <br> все сложиться!</h1>
-            <ul class="content-list__items">
-              <li class="content-list__item">бухгалтерское сопровождение</li>
-              <li class="content-list__item">аудиторские услуги</li>
-              <li class="content-list__item">налоговый консалтинг</li>
-              <li class="content-list__item">управленческий учет</li>
+        <div class="header-nav">
+          <div class="header-nav__link">
+            <ul class="nav__link-items">
+              <li><a href="#" class="nav__link-item">О компании</a></li>
+              <li><a href="#" class="nav__link-item">Наши услуги</a></li>
+              <li><a href="#" class="nav__link-item">Экспресс аудит</a></li>
+              <li><a href="#" class="nav__link-item">Блог</a></li>
+              <li><a href="#" class="nav__link-item">Контакты</a></li>
             </ul>
           </div>
         </div>
-        <div class="header-content-info">
-          <div class="content-info__text">Получите надежное бухгалтерское обслуживание с гарантиями и ответственностью в
-            договоре</div>
-          <div class="content-info__phone">
-            <input type="text" name="phone" id="phone" placeholder="+7(000)000-00-00">
+        <div class="header-content">
+          <div class="header-content__box">
+            <div class="content-box__img">
+              <img src="images/cubik.png" alt="cubik" />
+            </div>
+            <div class="content-box__text">
+              <h1 class="content-box__title">
+                С нами <br />
+                все сложиться!
+              </h1>
+              <ul class="content-list__items">
+                <li class="content-list__item">бухгалтерское сопровождение</li>
+                <li class="content-list__item">аудиторские услуги</li>
+                <li class="content-list__item">налоговый консалтинг</li>
+                <li class="content-list__item">управленческий учет</li>
+              </ul>
+            </div>
           </div>
-          <div class="content-info__btn"><button class="content__btn">Консультация</button></div>
+          <div class="header-content-info">
+            <div class="content-info__text">
+              Получите надежное бухгалтерское обслуживание с гарантиями и
+              ответственностью в договоре
+            </div>
+            <div class="content-info__phone">
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="+7(000)000-00-00"
+              />
+            </div>
+            <div class="content-info__btn">
+              <button class="content__btn">Консультация</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <section class="about-us">
-    <div class="container">
-      <div class="about-us__block">
-        <div class="about-us__inner">
-          <h2 class="about-us__title">О нас</h2>
-          <p class="about-us__text">Аудиторская фирма ТЕТ успешно оказывает услуги с 1995г.</p>
-          <p class="about-us__desc1">За это время мы сформировали команду профессионалов в сфере бухгалтерского,
-            управленческого учета и аудита, поэтому можем гарантировать компетентность наших сотрудников и высокое
-            качество наших услуг.
+    </header>
+    <section class="about-us">
+      <div class="container">
+        <div class="about-us__block">
+          <div class="about-us__inner">
+            <h2 class="about-us__title">О нас</h2>
+            <p class="about-us__text">
+              Аудиторская фирма ТЕТ успешно оказывает услуги с 1995г.
+            </p>
+            <p class="about-us__desc1">
+              За это время мы сформировали команду профессионалов в сфере
+              бухгалтерского, управленческого учета и аудита, поэтому можем
+              гарантировать компетентность наших сотрудников и высокое качество
+              наших услуг.
+            </p>
+            <p class="about-us__desc2">
+              Среди наших клиентов не только украинские компании, но и компании
+              нерезиденты различных форм собственности. Наша компания имеет
+              официальное подтверждение АПУ о соответствии системы контроля
+              качества и сертифицированных штатных аудиторов.
+            </p>
+          </div>
+        </div>
+        <div class="about-us__expert">
+          <h2 class="expert-title">Команда экспертов</h2>
+          <p class="expert-text">
+            Ни один специалист не будет эффективнее целой команды!
           </p>
-          <p class="about-us__desc2">Среди наших клиентов не только украинские компании, но и компании нерезиденты
-            различных форм собственности. Наша компания имеет официальное подтверждение АПУ о соответствии системы
-            контроля качества и сертифицированных штатных аудиторов. </p>
+          <div class="swiper about-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide expert-slider__item">
+                <img
+                  src="images/slider-img1.jpg"
+                  alt="slider-img1"
+                  class="slider-img"
+                />
+                <p class="expert-fio">Иванова Наталья Васильевна</p>
+                <p class="expert-profession">Ведущий бухгалтер</p>
+              </div>
+              <div class="swiper-slide expert-slider__item">
+                <img
+                  src="images/slider-img2.jpg"
+                  alt="slider-img2"
+                  class="slider-img"
+                />
+                <p class="expert-fio">Васильева Анастасия</p>
+                <p class="expert-profession">Первичник</p>
+              </div>
+              <div class="swiper-slide expert-slider__item">
+                <img
+                  src="images/slider-img3.jpg"
+                  alt="slider-img3"
+                  class="slider-img"
+                />
+                <p class="expert-fio">Иванов Петр Геннадиевич</p>
+                <p class="expert-profession">Ведущий бухгалтер</p>
+              </div>
+              <div class="swiper-slide expert-slider__item">
+                <img
+                  src="images/slider-img4.jpg"
+                  alt="slider-img4"
+                  class="slider-img"
+                />
+                <p class="expert-fio">Васильева Анастасия Игоревна</p>
+                <p class="expert-profession">Первичник</p>
+              </div>
+            </div>
+          </div>
+          <div class="navigation">
+            <div class="swiper-button-prev about-prev">
+              <svg
+                width="20"
+                height="12"
+                viewbox="0 0 20 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.41667 0.583374L0 6.00004L5.41667 11.4167L6.00583 10.8275L1.595 6.41671H20V5.58337H1.595L6.00583 1.17254L5.41667 0.583374Z"
+                  fill="#8C969A"
+                />
+              </svg>
+            </div>
+            <div class="swiper-button-next about-next">
+              <svg
+                width="20"
+                height="12"
+                viewbox="0 0 20 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.5833 11.4166L20 5.99996L14.5833 0.583294L13.9942 1.17246L18.405 5.58329L0 5.58329V6.41663L18.405 6.41663L13.9942 10.8275L14.5833 11.4166Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="about-us__expert">
-        <h2 class="expert-title">Команда экспертов</h2>
-        <p class="expert-text">Ни один специалист не будет эффективнее целой команды!</p>
-        <div class="swiper about-swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide expert-slider__item">
-              <img src="images/slider-img1.jpg" alt="" class="slider-img">
-              <p class="expert-fio">Иванова Наталья Васильевна</p>
-              <p class="expert-profession">Ведущий бухгалтер</p>
-            </div>
-            <div class="swiper-slide expert-slider__item">
-              <img src="images/slider-img2.jpg" alt="" class="slider-img">
-              <p class="expert-fio">Васильева Анастасия</p>
-              <p class="expert-profession">Первичник</p>
-            </div>
-            <div class="swiper-slide expert-slider__item">
-              <img src="images/slider-img3.jpg" alt="" class="slider-img">
-              <p class="expert-fio">Иванов Петр Геннадиевич</p>
-              <p class="expert-profession">Ведущий бухгалтер</p>
-            </div>
-            <div class="swiper-slide expert-slider__item">
-              <img src="images/slider-img4.jpg" alt="" class="slider-img">
-              <p class="expert-fio">Васильева Анастасия Игоревна</p>
-              <p class="expert-profession">Первичник</p>
+    </section>
+    <section class="support">
+      <div class="container">
+        <div class="support-inner">
+          <div class="support-text">
+            <h2 class="suppot-text__title">
+              Как бы стремительно не менялся мир, но
+            </h2>
+            <p class="support-text__decs">
+              грамотная финансовая отчетность продолжает определять успешность и
+              обоснованность управленческих решений.
+            </p>
+            <p class="support-text__decs">
+              Наш опыт в сфере бухгалтерского и управленческого учета позволяет
+              оперативно оценить состояние предприятия, подготовить все виды
+              отчетности и уберечь от возможных убытков и штрафов.
+            </p>
+          </div>
+          <div class="support-box">
+            <div class="support-box__inner">
+              <h4 class="support-box__title">мы Помогаем:</h4>
+              <ul class="support-box__items">
+                <li class="support-box__item">эффективно планировать</li>
+                <li class="support-box__item">контролировать</li>
+                <li class="support-box__item">распределять ответственность</li>
+                <li class="support-box__item">
+                  оптимизировать налогообложение
+                </li>
+                <li class="support-box__item">привлекать заемные средства.</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="navigation">
-          <div class="swiper-button-prev about-prev">
-            <svg width="20" height="12" viewbox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M5.41667 0.583374L0 6.00004L5.41667 11.4167L6.00583 10.8275L1.595 6.41671H20V5.58337H1.595L6.00583 1.17254L5.41667 0.583374Z"
-                fill="#8C969A" />
-            </svg>
-          </div>
-          <div class="swiper-button-next about-next">
-            <svg width="20" height="12" viewbox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M14.5833 11.4166L20 5.99996L14.5833 0.583294L13.9942 1.17246L18.405 5.58329L0 5.58329V6.41663L18.405 6.41663L13.9942 10.8275L14.5833 11.4166Z"
-                fill="white" />
-            </svg>
-          </div>
-        </div>
+        <h3 class="support-subtitle">
+          Компетентная коммуникация с фискальными службами - мы всегда на вашей
+          стороне.
+        </h3>
       </div>
-    </div>
-  </section>
-  <section class="support">
-    <div class="container">
-      <div class="support-inner">
-        <div class="support-text">
-          <h2 class="suppot-text__title">Как бы стремительно не менялся мир, но</h2>
-          <p class="support-text__decs">грамотная финансовая отчетность продолжает определять успешность и
-            обоснованность управленческих решений. </p>
-          <p class="support-text__decs">Наш опыт в сфере бухгалтерского и управленческого учета позволяет оперативно
-            оценить состояние предприятия, подготовить все виды отчетности и уберечь от возможных убытков и штрафов.
-          </p>
-        </div>
-        <div class="support-box">
-          <div class="support-box__inner">
-            <h4 class="support-box__title">
-              мы Помогаем:
-            </h4>
-            <ul class="support-box__items">
-              <li class="support-box__item">эффективно планировать</li>
-              <li class="support-box__item">контролировать</li>
-              <li class="support-box__item">распределять ответственность</li>
-              <li class="support-box__item">оптимизировать налогообложение</li>
-              <li class="support-box__item">привлекать заемные средства. </li>
-            </ul>
-          </div>
-        </div>
-        <div class="support-bg__box">
+      <div class="support-bg__box">
+        <div class="support-bg__container">
           <div class="support-bg-box__inner">
-            <h2 class="support-bg-box__title">Большой
-              опыт</h2>
-            <p class="support-bg-box__text">досудебных и судебных споров с налоговой. Миллионы гривен отмененных
-              штрафных
-              санкций</p>
+            <div class="support-bg-box__block">
+              <h2 class="support-bg-box__title">Большой опыт</h2>
+              <p class="support-bg-box__text">
+                досудебных и судебных споров с налоговой. Миллионы гривен
+                отмененных штрафных санкций
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <!-- <h3 class="support-subtitle">Компетентная коммуникация с фискальными службами - мы всегда на вашей стороне. </h3> -->
-    </div>
-    <!-- <div class="support-bg">
-      <img class="support-bg__img" src="images/support-bg.jpg" alt="">
-    </div> -->
-  </section>
-  <!-- <section class="services">
-    <div class="container">
-      <div class="services-inner">
-        <h2 class="services-title">
-          Наши услуги
-        </h2>
-        <div class="services-block">
-          <div class="services-block__items">
-            <div class="servives-item__inner">
-              <h3 class="service-title accounting">Бухгалтерский учет</h3>
-              <ul class="services-list__items">
-                <li class="services-list__item">Ведение бухгалтерского учета
-                </li>
-                <li class="services-list__item">Восстановление бухгалтерского учета
-                </li>
-                <li class="services-list__item">Постановка бухгалтерского учета
-                </li>
-                <li class="services-list__item">Ведение кадрового учет
-                </li>
-                <li class="services-list__item">Единоразовая подача отчетности
-                </li>
-              </ul>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="services-inner">
+          <h2 class="services-title">Наши услуги</h2>
+          <div class="services-block">
+            <div class="services-block__items">
+              <div class="servives-item__inner">
+                <h3 class="service-title accounting">Бухгалтерский учет</h3>
+                <ul class="services-list__items">
+                  <li class="services-list__item">
+                    Ведение бухгалтерского учета
+                  </li>
+                  <li class="services-list__item">
+                    Восстановление бухгалтерского учета
+                  </li>
+                  <li class="services-list__item">
+                    Постановка бухгалтерского учета
+                  </li>
+                  <li class="services-list__item">Ведение кадрового учет</li>
+                  <li class="services-list__item">
+                    Единоразовая подача отчетности
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="services-block__items">
+              <div class="servives-item__inner">
+                <h3 class="service-title audit">Аудит</h3>
+                <ul class="services-list__items">
+                  <li class="services-list__item">Экспресс аудит</li>
+                  <li class="services-list__item">Налоговый аудит</li>
+                  <li class="services-list__item">Кадровый аудит</li>
+                  <li class="services-list__item">
+                    Инициативный аудит предприятия
+                  </li>
+                  <li class="services-list__item">
+                    Обязательный аудит предприятия
+                  </li>
+                  <li class="services-list__item">Аудиторское сопровождение</li>
+                </ul>
+              </div>
+            </div>
+            <div class="services-block__items">
+              <div class="servives-item__inner">
+                <h3 class="service-title management">Управленческий учет</h3>
+                <ul class="services-list__items">
+                  <li class="services-list__item">
+                    Написание учетной политики компании
+                  </li>
+                  <li class="services-list__item">
+                    Разработка системы отчетности для ведения управленческого
+                    учета
+                  </li>
+                  <li class="services-list__item">
+                    Внедрение управленческого учета на базе 1С
+                  </li>
+                  <li class="services-list__item">
+                    Подбор системы финансовых показателей для контроля
+                    финансового состояния компании
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="services-block__items">
+              <div class="servives-item__inner">
+                <h3 class="service-title tax">Налоговая практика</h3>
+                <ul class="services-list__items">
+                  <li class="services-list__item">Сопровождение проверок</li>
+                  <li class="services-list__item">
+                    Досудебные и судебные споры с налоговой
+                  </li>
+                  <li class="services-list__item">
+                    Разблокировка налоговых накладных
+                  </li>
+                  <li class="services-list__item">
+                    Налоговое планирование и оптимизация
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="services-block__items">
-            <div class="servives-item__inner">
-              <h3 class="service-title audit">Аудит</h3>
-              <ul class="services-list__items">
-                <li class="services-list__item">Экспресс аудит
-                </li>
-                <li class="services-list__item">Налоговый аудит
-                </li>
-                <li class="services-list__item">Кадровый аудит
-                </li>
-                <li class="services-list__item">Инициативный аудит предприятия
-                </li>
-                <li class="services-list__item">Обязательный аудит предприятия
-                </li>
-                <li class="services-list__item">Аудиторское сопровождение
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="services-block__items">
-            <div class="servives-item__inner">
-              <h3 class="service-title management">Управленческий учет</h3>
-              <ul class="services-list__items">
-                <li class="services-list__item">Написание учетной политики компании
-                </li>
-                <li class="services-list__item">Разработка системы отчетности для ведения управленческого учета
-                </li>
-                <li class="services-list__item">Внедрение управленческого учета на базе 1С
-                </li>
-                <li class="services-list__item">Подбор системы финансовых показателей для контроля финансового состояния
-                  компании
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="services-block__items">
-            <div class="servives-item__inner">
-              <h3 class="service-title tax">Налоговая практика</h3>
-              <ul class="services-list__items">
-                <li class="services-list__item">Сопровождение проверок
-                </li>
-                <li class="services-list__item">Досудебные и судебные споры с налоговой
-                </li>
-                <li class="services-list__item">Разблокировка налоговых накладных
-                </li>
-                <li class="services-list__item">Налоговое планирование и оптимизация
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="outsourcing">
-          <div class="outsourcing-inner">
-            <div class="outsourcing-info">
-              <h2 class="outsourcing-info__title">Аутсорсинг бухгалтерии</h2>
-              <p class="outsourcing-info__text">Бизнес предпочитает фокусироваться на своих целевых процессах, а
-                непрофильные функции отдавать сторонним специалистам. Если раньше аутсорсинг бухгалтерии рассматривался
-                исключительно с точки зрения экономии на штатном бухгалтере, то сейчас к нему обращаются с целью</p>
-              <p class="outsourcing-info__text">достичь конкурентных преимуществ, снижения финансовых рисков и повышения
-                рентабельности бизнеса. </p>
-            </div>
-            <div class="outsourcing-block">
-              <div class="outsourcing-block__inner">
-                <div class="outsourcing-percent">70%</div>
-                <p class="outsourcing-percent__text">компаний в мире пользуются услугами бухгалтера на аутсорсе</p>
+          <div class="outsourcing">
+            <div class="outsourcing-inner">
+              <div class="outsourcing-info">
+                <h2 class="outsourcing-info__title">Аутсорсинг бухгалтерии</h2>
+                <p class="outsourcing-info__text">
+                  Бизнес предпочитает фокусироваться на своих целевых процессах,
+                  а непрофильные функции отдавать сторонним специалистам. Если
+                  раньше аутсорсинг бухгалтерии рассматривался исключительно с
+                  точки зрения экономии на штатном бухгалтере, то сейчас к нему
+                  обращаются с целью
+                </p>
+                <p class="outsourcing-info__text">
+                  достичь конкурентных преимуществ, снижения финансовых рисков и
+                  повышения рентабельности бизнеса.
+                </p>
+              </div>
+              <div class="outsourcing-block">
+                <div class="outsourcing-block__inner">
+                  <div class="outsourcing-percent">70%</div>
+                  <p class="outsourcing-percent__text">
+                    компаний в мире пользуются услугами бухгалтера на аутсорсе
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section> -->
-  <!-- <section class="step">
-    <div class="container">
-      <div class="step-inner">
-        <div class="step-inner__column">
-          <div class="step-inner__info">
-            <h2 class="step-info__title">Кому подходит</h2>
-            <p class="step-info__text">бухгалтерский аутсорсинг</p>
+    </section>
+    <section class="step">
+      <div class="container">
+        <div class="step-inner">
+          <div class="step-inner__column">
+            <div class="step-inner__info">
+              <h2 class="step-info__title">Кому подходит</h2>
+              <p class="step-info__text">бухгалтерский аутсорсинг</p>
+            </div>
+            <div class="step-inner__block">
+              <h4 class="step-block__title"><span>01.</span> Стартапы</h4>
+              <p class="step-block__text">
+                Аутсорсинг бухгалтерии дает возможность посвятить себя
+                бизнес-процессам, не распыляясь на вспомогательные функции.
+              </p>
+            </div>
+            <div class="step-inner__block">
+              <h4 class="step-block__title">
+                <span>02.</span> ФОПы, малые и средние предприятия
+              </h4>
+              <p class="step-block__text">
+                Бухгалтерское сопровождение позволит оптимизировать расходы на
+                содержание штатного специалиста. К тому же ожидать качественный
+                результат и защиту от налоговых рисков от бухгалтера-фрилансера
+                точно не стоит
+              </p>
+            </div>
           </div>
-          <div class="step-inner__block">
-            <h4 class="step-block__title"><span>01.</span> Стартапы</h4>
-            <p class="step-block__text">Аутсорсинг бухгалтерии дает возможность посвятить себя бизнес-процессам, не
-              распыляясь на вспомогательные функции.</p>
-          </div>
-          <div class="step-inner__block">
-            <h4 class="step-block__title"><span>02.</span> ФОПы, малые и средние предприятия</h4>
-            <p class="step-block__text">Бухгалтерское сопровождение позволит оптимизировать расходы на содержание
-              штатного
-              специалиста. К тому же ожидать качественный результат и защиту от налоговых рисков от
-              бухгалтера-фрилансера
-              точно не стоит</p>
+          <div class="step-inner__column">
+            <div class="step-inner__block">
+              <h4 class="step-block__title">
+                <span>03.</span> Сезонный бизнес
+              </h4>
+              <p class="step-block__text">
+                Содержать бухгалтерию в период спада активности невыгодно.
+                Поэтому у компаний сезонного бизнеса аутсорсинг бухгалтерских
+                услуг пользуется спросом
+              </p>
+            </div>
+            <div class="step-inner__block">
+              <h4 class="step-block__title">
+                <span>04.</span> Иностранный бизнес
+              </h4>
+              <p class="step-block__text">
+                Бухгалтерское сопровождение позволит оптимизировать расходы на
+                содержание штатного специалиста. К тому же ожидать качественный
+                результат и защиту от налоговых рисков от бухгалтера-фрилансера
+                точно не стоит
+              </p>
+            </div>
+            <div class="step-inner__block">
+              <h4 class="step-block__title">
+                <span>05.</span> Компании с двумя и более учредителями
+              </h4>
+              <p class="step-block__text">
+                Передача учетных функций обеспечивает прозрачность учета и
+                независимость бухгалтерии, равный доступ пользователей к
+                результатам учета
+              </p>
+            </div>
           </div>
         </div>
-        <div class="step-inner__column">
-          <div class="step-inner__block">
-            <h4 class="step-block__title"><span>03.</span> Сезонный бизнес</h4>
-            <p class="step-block__text">Содержать бухгалтерию в период спада активности невыгодно. Поэтому у компаний
-              сезонного бизнеса аутсорсинг бухгалтерских услуг пользуется спросом</p>
+      </div>
+      <div class="step-bg">
+        <div class="step-bg__img"></div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__blocks">
+          <h2 class="advantages__title">Наши преимущества</h2>
+          <div class="advantages__block">
+            <div class="advantages__img">
+              <img src="images/briefcase.svg" alt="briefcase" />
+            </div>
+            <p class="advantages__text">
+              <span>Профессионализм</span>
+              Наличие в штате сертифицированных аудиторов позволяет постоянно
+              проводить контроль качества работы бухгалтеров, а автоматизация
+              учетных процессов помогает исключить операционные ошибки
+            </p>
           </div>
-          <div class="step-inner__block">
-            <h4 class="step-block__title"><span>04.</span> Иностранный бизнес</h4>
-            <p class="step-block__text">Бухгалтерское сопровождение позволит оптимизировать расходы на содержание
-              штатного
-              специалиста. К тому же ожидать качественный результат и защиту от налоговых рисков от
-              бухгалтера-фрилансера
-              точно не стоит</p>
+          <div class="advantages__block">
+            <div class="advantages__img">
+              <img src="images/award.svg" alt="award" />
+            </div>
+            <p class="advantages__text">
+              <span>Эффективность</span>
+              Гибкие условия сотрудничества. Снижение затрат на содержание
+              штатных специалистов. Отсутствие кадровых проблем и привязки к
+              специалисту. Связь 24/7 без отпусков и больничных
+            </p>
           </div>
-          <div class="step-inner__block">
-            <h4 class="step-block__title"><span>05.</span> Компании с двумя и более учредителями</h4>
-            <p class="step-block__text">Передача учетных функций обеспечивает прозрачность учета и независимость
-              бухгалтерии, равный доступ пользователей к результатам учета</p>
+          <div class="advantages__block">
+            <div class="advantages__img">
+              <img src="images/shield.svg" alt="shield" />
+            </div>
+            <p class="advantages__text">
+              <span>Надежность</span>
+              Страхуем профессиональную ответственность, несем финансовые
+              гарантии за нашу работу и гарантируем качество предоставляемых
+              нами услуг
+            </p>
+          </div>
+          <div class="advantages__block">
+            <div class="advantages__img">
+              <img src="images/detective.svg" alt="detective" />
+            </div>
+            <p class="advantages__text">
+              <span>Прозрачность</span>
+              обеспечим объективное представление о финансовом состоянии
+              компании
+            </p>
+          </div>
+          <div class="advantages__block">
+            <div class="advantages__img">
+              <img src="images/spy.svg" alt="spy" />
+            </div>
+            <p class="advantages__text">
+              <span>Конфиденциальность</span>
+              сохраняем полную конфиденциальность и информационную безопасность
+              ваших данных
+            </p>
+          </div>
+        </div>
+        <div class="advantages__info advantages__container">
+          <p class="advantages__decs">
+            Мы растем вместе с нашими клиентами,<br />
+            <span>поэтому делаем все, чтобы ваш бизнес был успешным!</span>
+          </p>
+        </div>
+        <h2 class="advantages__question">С чего начать?</h2>
+        <div class="advantages__steps">
+          <div class="advantages__step">
+            <span>1</span>
+            <h4>Консультация</h4>
+            <p>
+              Мы с радостью расскажем более подробно о нашей компании и
+              предоставим информацию об услугах.
+            </p>
+          </div>
+          <div class="advantages__step">
+            <span>2</span>
+            <h4>Экспресс-аудит</h4>
+            <p>
+              Проводим экспресс аудит предприятия, обсуждаем детали, подбираем
+              оптимальные условия сотрудничества.
+            </p>
+          </div>
+          <div class="advantages__step">
+            <span>3</span>
+            <h4>Договор</h4>
+            <p>
+              Согласуем и подписываем договор, Принимаем документы, ключи,
+              доступы. Организуем учет и документооборот.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="step-bg">
-      <div class="step-bg__img">
-        <img src="images/step-bg.jpg" alt="">
-      </div>
-    </div>
-  </section> -->
-  <!-- <section class="advantages">
-    <div class="container">
-      <div class="advantages__blocks">
-        <h2 class="advantages__title">Наши преимущества</h2>
-        <div class="advantages__block">
-          <div class="advantages__img">
-            <img src="images/briefcase.svg" alt="briefcase">
-          </div>
-          <p class="advantages__text">
-            <span>Профессионализм</span>
-            Наличие в штате сертифицированных аудиторов позволяет постоянно проводить контроль качества работы
-            бухгалтеров, а автоматизация учетных процессов помогает исключить операционные ошибки
-          </p>
-        </div>
-        <div class="advantages__block">
-          <div class="advantages__img">
-            <img src="images/award.svg" alt="award">
-          </div>
-          <p class="advantages__text">
-            <span>Эффективность</span>
-            Гибкие условия сотрудничества. Снижение затрат на содержание штатных специалистов. Отсутствие кадровых
-            проблем и привязки к специалисту. Связь 24/7 без отпусков и больничных
-          </p>
-        </div>
-        <div class="advantages__block">
-          <div class="advantages__img">
-            <img src="images/shield.svg" alt="shield">
-          </div>
-          <p class="advantages__text">
-            <span>Надежность</span>
-            Страхуем профессиональную ответственность, несем финансовые гарантии за нашу работу и гарантируем качество
-            предоставляемых нами услуг
-          </p>
-        </div>
-        <div class="advantages__block">
-          <div class="advantages__img">
-            <img src="images/detective.svg" alt="detective">
-          </div>
-          <p class="advantages__text">
-            <span>Прозрачность</span>
-            обеспечим объективное представление о финансовом состоянии компании
-          </p>
-        </div>
-        <div class="advantages__block">
-          <div class="advantages__img">
-            <img src="images/spy.svg" alt="spy">
-          </div>
-          <p class="advantages__text">
-            <span>Конфиденциальность</span>
-            сохраняем полную конфиденциальность и информационную безопасность ваших данных
-          </p>
-        </div>
-      </div>
-      <div class="advantages__info advantages__container">
-        <p class="advantages__decs">
-          Мы растем вместе с нашими клиентами,<br>
-          <span>поэтому делаем все, чтобы ваш бизнес был успешным!</span>
-        </p>
-      </div>
-      <h2 class="advantages__question">С чего начать?</h2>
-      <div class="advantages__steps">
-        <div class="advantages__step">
-          <span>1</span>
-          <h4>Консультация</h4>
-          <p>Мы с радостью расскажем более подробно о нашей компании и предоставим информацию об услугах.</p>
-        </div>
-        <div class="advantages__step">
-          <span>2</span>
-          <h4>Экспресс-аудит</h4>
-          <p>
-            Проводим экспресс аудит предприятия, обсуждаем детали, подбираем оптимальные условия сотрудничества.
-          </p>
-        </div>
-        <div class="advantages__step">
-          <span>3</span>
-          <h4>Договор</h4>
-          <p>
-            Согласуем и подписываем договор, Принимаем документы, ключи, доступы. Организуем учет и документооборот.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- <section class="express">
+    </section>
+    <!-- <section class="express">
     <div class="container">
       <div class="express__container">
         <div class="express__info">
@@ -418,7 +527,7 @@
       </div>
     </div>
   </section> -->
-  <!-- <section class="publications">
+    <!-- <section class="publications">
     <div class="container">
       <div class="publications__inner">
         <h2 class="publications__title">Публикации</h2>
@@ -469,7 +578,7 @@
 
     </div>
   </section> -->
-  <!-- <section class="partner">
+    <!-- <section class="partner">
     <div class="container">
       <div class="partner__inner">
         <h2 class="partner__title">Нам доверяют</h2>
@@ -560,13 +669,12 @@
       </div>
     </div>
   </section> -->
-  <!-- <footer>
+    <!-- <footer>
     <p class="footer__desc">
       © 2021 Аудиторская Фирма «ТЕТ». Регистрационный номер 23463607. Все права защищены.
     </p>
   </footer> -->
-</body>
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
-
+  </body>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </html>

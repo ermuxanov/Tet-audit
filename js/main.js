@@ -12,7 +12,7 @@ new Swiper(aboutSlider, {
   },
   breakpoints: {
     320: {
-      slidesPerView: 1,
+      slidesPerView: 1.3,
       spaceBetween: 20,
     }
   }
