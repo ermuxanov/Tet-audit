@@ -1,5 +1,4 @@
-let aboutSlider = document.querySelector('.about-swiper');
-
+let aboutSlider = document.querySelector(".about-swiper");
 
 new Swiper(aboutSlider, {
   slidesPerView: 4,
@@ -7,21 +6,19 @@ new Swiper(aboutSlider, {
   slideClass: "swiper-slide",
   loop: true,
   navigation: {
-    nextEl: '.about-next',
-    prevEl: '.about-prev',
+    nextEl: ".about-next",
+    prevEl: ".about-prev",
   },
   breakpoints: {
     320: {
       slidesPerView: 1.3,
       spaceBetween: 20,
-    }
-  }
-})
+    },
+  },
+});
 
-
-const slider = document.querySelector('.publications-swiper')
-const partnerSlider = document.querySelector('.partner-swiper')
-
+const slider = document.querySelector(".publications-swiper");
+const partnerSlider = document.querySelector(".partner-swiper");
 
 let mySwiper = new Swiper(slider, {
   slidesPerView: 3,
@@ -29,10 +26,16 @@ let mySwiper = new Swiper(slider, {
   slideClass: "publications__item",
   loop: true,
   navigation: {
-    nextEl: '.publications-next',
-    prevEl: '.publications-prev',
+    nextEl: ".publications-next",
+    prevEl: ".publications-prev",
   },
-})
+  breakpoints: {
+    320: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
+  },
+});
 
 let partnerSwiper = new Swiper(partnerSlider, {
   slidesPerView: 6,
@@ -41,12 +44,10 @@ let partnerSwiper = new Swiper(partnerSlider, {
   slideClass: "partner__slide",
   loop: true,
   navigation: {
-    nextEl: '.partner-next',
-    prevEl: '.partner-prev',
+    nextEl: ".partner-next",
+    prevEl: ".partner-prev",
   },
-})
-
-
+});
 
 // let mySwiper;
 // mySwiper = new Swiper(slider, {
