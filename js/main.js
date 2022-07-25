@@ -47,6 +47,12 @@ let partnerSwiper = new Swiper(partnerSlider, {
     nextEl: ".partner-next",
     prevEl: ".partner-prev",
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+  },
 });
 
 // let mySwiper;

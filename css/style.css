@@ -1446,6 +1446,7 @@ footer {
   }
   .advantages {
     background-image: none;
+    padding-top: 0;
   }
   .advantages__blocks {
     flex-wrap: nowrap;
@@ -1539,5 +1540,34 @@ footer {
   .publications__title {
     font-size: 28px;
     line-height: 44px;
+  }
+  .contacts__title {
+    font-size: 28px;
+    line-height: 44px;
+  }
+  .contacts__block{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .contacts__block .contacts__social{
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts__block .contacts__social .social-viber,
+  .contacts__block .contacts__social .social-telegram,
+  .contacts__block .contacts__social .social-instagram,
+  .contacts__block .contacts__social .social-facebook{
+    margin-right: 0;
+  }
+  .contacts__map{
+    width: 290px;
+    height: 190px;
+  }
+  .contacts__email{
+    width: 290px;
+    margin-bottom: 70px;
+  }
+  .contacts__form{
+    margin-left: 0;
   }
 }
