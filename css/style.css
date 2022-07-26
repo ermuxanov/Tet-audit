@@ -956,6 +956,7 @@ li {
   background-image: url("../images/bg-6.jpg");
   background-position: right top;
   background-repeat: no-repeat;
+  margin-bottom: 80px;
 }
 
 .partner__inner {
@@ -977,8 +978,11 @@ li {
   margin-bottom: 50px;
 }
 
-.partner__swiper {
-  overflow: hidden;
+.partner__slide {
+  width: 100%;
+}
+.partner__slide img {
+  display: block;
 }
 
 .contacts {
@@ -1003,9 +1007,11 @@ li {
 }
 
 .contacts__block {
-  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1160px;
 }
 
 .contacts__phone {
@@ -1541,33 +1547,43 @@ footer {
     font-size: 28px;
     line-height: 44px;
   }
+  .partner {
+    margin-bottom: 0;
+  }
+  .partner__slide{
+    width: 100%;
+  }
   .contacts__title {
     font-size: 28px;
     line-height: 44px;
   }
-  .contacts__block{
+  .contacts__block {
     flex-direction: column;
-    margin-bottom: 0;
+    padding: 0;
   }
-  .contacts__block .contacts__social{
+  .contacts__info {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .contacts__block .contacts__social {
     display: flex;
     justify-content: space-between;
   }
   .contacts__block .contacts__social .social-viber,
   .contacts__block .contacts__social .social-telegram,
   .contacts__block .contacts__social .social-instagram,
-  .contacts__block .contacts__social .social-facebook{
+  .contacts__block .contacts__social .social-facebook {
     margin-right: 0;
   }
-  .contacts__map{
+  .contacts__map {
     width: 290px;
     height: 190px;
   }
-  .contacts__email{
+  .contacts__email {
     width: 290px;
     margin-bottom: 70px;
   }
-  .contacts__form{
+  .contacts__form {
     margin-left: 0;
   }
 }

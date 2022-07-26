@@ -9,12 +9,12 @@ new Swiper(aboutSlider, {
     nextEl: ".about-next",
     prevEl: ".about-prev",
   },
-  breakpoints: {
-    320: {
-      slidesPerView: 1.3,
-      spaceBetween: 20,
-    },
-  },
+  // breakpoints: {
+  //   320: {
+  //     slidesPerView: 1.3,
+  //     spaceBetween: 20,
+  //   },
+  // },
 });
 
 const slider = document.querySelector(".publications-swiper");
@@ -29,17 +29,16 @@ let mySwiper = new Swiper(slider, {
     nextEl: ".publications-next",
     prevEl: ".publications-prev",
   },
-  breakpoints: {
-    320: {
-      slidesPerView: 1.3,
-      spaceBetween: 20,
-    },
-  },
+  // breakpoints: {
+  //   320: {
+  //     slidesPerView: 1.3,
+  //     spaceBetween: 20,
+  //   },
+  // },
 });
 
 let partnerSwiper = new Swiper(partnerSlider, {
   slidesPerView: 6,
-
   spaceBetween: 30,
   slideClass: "partner__slide",
   loop: true,
@@ -47,27 +46,11 @@ let partnerSwiper = new Swiper(partnerSlider, {
     nextEl: ".partner-next",
     prevEl: ".partner-prev",
   },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-  },
+  // breakpoints: {
+  //   320: {
+  //     slidesPerView: 1.7,
+  //     spaceBetween: 22,
+  //     loop: true,
+  //   },
+  // },
 });
-
-// let mySwiper;
-// mySwiper = new Swiper(slider, {
-//     // Optional parameters
-//    slidesPerView:4,
-//     loop: true,
-//     slideClass: "swiper-slide",
-//     spaceBetween: 30,
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-
-//     // And if we need scrollbar
-
-//   });
