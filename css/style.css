@@ -1190,7 +1190,7 @@ footer {
   }
 }
 @media (max-width: 1024px) {
-  .services{
+  .services {
     padding-bottom: 100px;
   }
   .services-block__items {
@@ -1205,32 +1205,57 @@ footer {
     gap: 100px;
     align-items: center;
   }
-  .outsourcing-percent{
+  .outsourcing-percent {
     margin-bottom: 0;
   }
-  .step-bg__img{
+  .step-bg__img {
     height: 200px;
   }
-  .advantages{
+  .advantages {
     padding-top: 50px;
   }
+  .advantages__blocks {
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+  .advantages__block {
+    gap: 30px;
+  }
+  .advantages__text {
+    margin-left: 0;
+    max-width: 400px;
+  }
+  .express__btn {
+    margin-bottom: 0;
+  }
+  .social-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    padding: 0;
+  }
+  .partner__slide img {
+    max-width: 149px;
+  }
+  .contacts__block {
+    gap: 20px;
+  }
+  .contacts__form {
+    margin-left: 0;
+  }
 }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .container {
-    max-width: 320px;
     padding: 0 15px;
-    margin: 0 auto;
   }
-
-  .header {
-    background-position: left top;
-  }
-
   .social,
   .header-nav {
     display: none;
   }
-
   .burger {
     display: flex;
     align-items: center;
@@ -1245,7 +1270,9 @@ footer {
     height: 2px;
     background: #5477bb;
   }
-
+  .burger__line:active:after{
+    transform: rotateY(45deg);
+  }
   .burger__line::after {
     position: absolute;
     content: "";
@@ -1262,6 +1289,11 @@ footer {
     height: 2px;
     background: #5477bb;
     bottom: 8px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    background-position: left top;
   }
 
   .header-content__box {
