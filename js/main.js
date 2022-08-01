@@ -52,5 +52,10 @@ let partnerSwiper = new Swiper(partnerSlider, {
       spaceBetween: 22,
       loop: true,
     },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 15,
+      loop: true,
+    },
   },
 });
